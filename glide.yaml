@@ -1,0 +1,7 @@
+package: .
+import:
+- package: github.com/yamachu/ripemd128
+- package: golang.org/x/crypto
+  subpackages:
+  - md4
+  - ripemd160
